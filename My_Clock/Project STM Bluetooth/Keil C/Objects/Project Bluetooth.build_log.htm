@@ -1,0 +1,149 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: NguBa Ly, HUST, LIC=MPPLD-8B1YQ-EVV1R-KBLXN-YCSLW-LKJ2H
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\DELL\Downloads\DS1307\ds1307\Project STM Bluetooth\Keil C\Project Bluetooth.uvprojx
+Project File Date:  03/18/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'BLUETOOTH'
+assembling startup_stm32f10x_md.s...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_it.c...
+..\User_Function.h(46): warning:  #1295-D: Deprecated declaration Init_I2C - give arg types
+  void Init_I2C();
+..\User_Function.h(47): warning:  #1295-D: Deprecated declaration i2c_start - give arg types
+  void i2c_start();
+..\User_Function.h(48): warning:  #1295-D: Deprecated declaration i2c_stop - give arg types
+  void i2c_stop();
+..\User_Function.h(51): warning:  #1295-D: Deprecated declaration i2c_receive_ack - give arg types
+  uint8_t i2c_receive_ack();
+..\User_Function.h(52): warning:  #1295-D: Deprecated declaration i2c_receive_nack - give arg types
+  uint8_t i2c_receive_nack();
+..\User_Function.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\stm32f10x_it.c: 6 warnings, 0 errors
+compiling stm32f10x_i2c.c...
+compiling main.c...
+..\User_Function.h(46): warning:  #1295-D: Deprecated declaration Init_I2C - give arg types
+  void Init_I2C();
+..\User_Function.h(47): warning:  #1295-D: Deprecated declaration i2c_start - give arg types
+  void i2c_start();
+..\User_Function.h(48): warning:  #1295-D: Deprecated declaration i2c_stop - give arg types
+  void i2c_stop();
+..\User_Function.h(51): warning:  #1295-D: Deprecated declaration i2c_receive_ack - give arg types
+  uint8_t i2c_receive_ack();
+..\User_Function.h(52): warning:  #1295-D: Deprecated declaration i2c_receive_nack - give arg types
+  uint8_t i2c_receive_nack();
+..\User_Function.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User_Delay.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Project STM Bluetooth\I2C.h(5): warning:  #1295-D: Deprecated declaration I2C_Start - give arg types
+  void I2C_Start();
+..\..\Project STM Bluetooth\I2C.h(6): warning:  #1295-D: Deprecated declaration I2C_Stop - give arg types
+  void I2C_Stop();
+..\..\Project STM Bluetooth\I2C.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\DS1307.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\main.c(67): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_SetState(DHT_GPIO,GPIO_Pin_12,RCC_APB2Periph_GPIOB);
+..\main.c: 12 warnings, 0 errors
+compiling User_Delay.c...
+..\User_delay.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User_Delay.c(35): warning:  #1-D: last line of file ends without a newline
+  }	
+..\User_Delay.c: 2 warnings, 0 errors
+compiling User_Function.c...
+..\User_Function.h(46): warning:  #1295-D: Deprecated declaration Init_I2C - give arg types
+  void Init_I2C();
+..\User_Function.h(47): warning:  #1295-D: Deprecated declaration i2c_start - give arg types
+  void i2c_start();
+..\User_Function.h(48): warning:  #1295-D: Deprecated declaration i2c_stop - give arg types
+  void i2c_stop();
+..\User_Function.h(51): warning:  #1295-D: Deprecated declaration i2c_receive_ack - give arg types
+  uint8_t i2c_receive_ack();
+..\User_Function.h(52): warning:  #1295-D: Deprecated declaration i2c_receive_nack - give arg types
+  uint8_t i2c_receive_nack();
+..\User_Function.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User_Function.c(246): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_Structure.GPIO_Mode= GPIO_Mode;
+..\User_Function.c: 7 warnings, 0 errors
+compiling nokia_5110.c...
+compiling stm32f10x_tim.c...
+compiling DHT11.c...
+..\user_delay.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\DHT11.c: 1 warning, 0 errors
+compiling DS1307.c...
+..\..\Project STM Bluetooth\I2C.h(5): warning:  #1295-D: Deprecated declaration I2C_Start - give arg types
+  void I2C_Start();
+..\..\Project STM Bluetooth\I2C.h(6): warning:  #1295-D: Deprecated declaration I2C_Stop - give arg types
+  void I2C_Stop();
+..\..\Project STM Bluetooth\I2C.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Project STM Bluetooth\DS1307.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\Project STM Bluetooth\User_Function.h(46): warning:  #1295-D: Deprecated declaration Init_I2C - give arg types
+  void Init_I2C();
+..\..\Project STM Bluetooth\User_Function.h(47): warning:  #1295-D: Deprecated declaration i2c_start - give arg types
+  void i2c_start();
+..\..\Project STM Bluetooth\User_Function.h(48): warning:  #1295-D: Deprecated declaration i2c_stop - give arg types
+  void i2c_stop();
+..\..\Project STM Bluetooth\User_Function.h(51): warning:  #1295-D: Deprecated declaration i2c_receive_ack - give arg types
+  uint8_t i2c_receive_ack();
+..\..\Project STM Bluetooth\User_Function.h(52): warning:  #1295-D: Deprecated declaration i2c_receive_nack - give arg types
+  uint8_t i2c_receive_nack();
+..\..\Project STM Bluetooth\User_Function.h(62): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\DS1307.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=5588 RO-data=748 RW-data=92 ZI-data=1084  
+FromELF: creating hex file...
+".\Objects\Project Bluetooth.axf" - 0 Error(s), 38 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.0.pack
+                Keil.STM32F1xx_DFP.2.4.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  C:/Users/DELL/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=GND Pin=DOWN-1
+Removed Pin From Net: NetName=GND Pin=DOWN-1
+Removed Pin From Net: NetName=SW3 Pin=DOWN-2
+Removed Pin From Net: NetName=SW3 Pin=DOWN-2
+Removed Pin From Net: NetName=GND Pin=RESET-1
+Removed Pin From Net: NetName=GND Pin=RESET-1
+Removed Pin From Net: NetName=NRST Pin=RESET-2
+Removed Pin From Net: NetName=NRST Pin=RESET-2
+Removed Pin From Net: NetName=GND Pin=UP-1
+Removed Pin From Net: NetName=GND Pin=UP-1
+Removed Pin From Net: NetName=SW1 Pin=UP-2
+Removed Pin From Net: NetName=SW1 Pin=UP-2
+Removed Member From Class: ClassName=KIT_STM32_Version3 Member=RESET
+Removed Member From Class: ClassName=KIT_STM32_Version3 Member=UP
+Added Component: Designator=S1(SW 4PIN)
+Added Component: Designator=S2(SW 4PIN)
+Added Component: Designator=S3(SW 4PIN)
+Added Pin To Net: NetName=GND Pin=S1-1
+Added Pin To Net: NetName=GND Pin=S1-1
+Added Pin To Net: NetName=SW1 Pin=S1-2
+Added Pin To Net: NetName=SW1 Pin=S1-2
+Added Pin To Net: NetName=GND Pin=S2-1
+Added Pin To Net: NetName=GND Pin=S2-1
+Added Pin To Net: NetName=SW3 Pin=S2-2
+Added Pin To Net: NetName=SW3 Pin=S2-2
+Added Pin To Net: NetName=GND Pin=S3-1
+Added Pin To Net: NetName=GND Pin=S3-1
+Added Pin To Net: NetName=NRST Pin=S3-2
+Added Pin To Net: NetName=NRST Pin=S3-2
+Change Class Name : Old Net Name=KIT_STM32_Version3 New Net Name=DS1307
+Added Member To Class: ClassName=DS1307 Member=Component P1 ST-LINK
+Added Member To Class: ClassName=DS1307 Member=Component R5 1k
+Added Member To Class: ClassName=DS1307 Member=Component S1 
+Added Member To Class: ClassName=DS1307 Member=Component S2 
+Added Member To Class: ClassName=DS1307 Member=Component S3 
+Added Member To Class: ClassName=DS1307 Member=Component U1 STM32F103x8/B-LQFP48
+Added Room: Name=DS1307
